@@ -54,3 +54,12 @@ class Solution(object):
 
         return commonInterest[min(commonInterest)]
 
+if __name__ == '__main__':
+    list = ["Shogun", "Tapioca Express", "Burger King", "KFC"]
+    list2 = ["KFC", "Shogun", "Burger King"]
+    list3 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]
+    list4 = ["KFC","Burger King","Tapioca Express", "Shogun"]
+    res = Solution()
+    result = res.findRestaurant(list,list2)
+    print(result)
+
