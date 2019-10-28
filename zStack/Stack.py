@@ -20,6 +20,7 @@ class MyStack:
     def printStack(self):
         print(self.stackItems)
 
+
 s = MyStack()
 print (s.isEmpty())
 print(s.peek())
