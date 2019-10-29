@@ -23,6 +23,12 @@ def strReverseByStack(inputStr):
         st.pop()
     return result
 
+def strReverseBySlice(inputStr):
+    if inputStr is not None:
+        return inputStr[::-1]
+    return inputStr
+
 if __name__ == "__main__":
     print(strReverse("Hellow World"))
     print(strReverseByStack("Hellow World22"))
+    print(strReverseBySlice("Hellow World22"))
